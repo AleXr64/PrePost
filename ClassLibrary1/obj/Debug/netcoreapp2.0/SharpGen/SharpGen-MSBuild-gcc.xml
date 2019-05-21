@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GCC_XML version="0.9.0" cvs_revision="1.145">
+  <Namespace id="_1" name="::" members="_2 _3 _4 _5 _6">
+    <Typedef id="_2" name="__NSConstantString" type="_7" context="_1" location="f0:0" file="f0" line="0" />
+    <Class id="_3" name="type_info" context="_1" location="f0:0" file="f0" line="0" incomplete="1" />
+    <Typedef id="_4" name="size_t" type="_8" context="_1" location="f0:0" file="f0" line="0" />
+    <Typedef id="_5" name="__builtin_va_list" type="_9" context="_1" location="f0:0" file="f0" line="0" />
+    <Function id="_6" name="Func3" returns="_10" context="_1" location="f1:7" file="f1" line="7" mangled="?Func3@@YAXXZ" />
+    <Struct id="_7" name="__NSConstantString" context="_1" location="f0:0" file="f0" line="0" members="_11 _12 _13 _14" size="128" align="32">
+      <Field id="_11" name="isa" type="_16" context="_7" access="public" offset="0" />
+      <Field id="_12" name="flags" type="_17" context="_7" access="public" offset="32" />
+      <Field id="_13" name="str" type="_18" context="_7" access="public" offset="64" />
+      <Field id="_14" name="length" type="_19" context="_7" access="public" offset="96" />
+    </Struct>
+  </Namespace>
+  <FundamentalType id="_8" name="unsigned int" size="32" align="32" />
+  <PointerType id="_9" type="_15" size="32" align="32" />
+  <FundamentalType id="_10" name="void" size="0" align="8" />
+  <PointerType id="_16" type="_17c" size="32" align="32" />
+  <FundamentalType id="_17" name="int" size="32" align="32" />
+  <CvQualifiedType id="_17c" type="_17" const="1" />
+  <PointerType id="_18" type="_15c" size="32" align="32" />
+  <CvQualifiedType id="_15c" type="_15" const="1" />
+  <FundamentalType id="_19" name="long int" size="32" align="32" />
+  <FundamentalType id="_15" name="char" size="8" align="8" />
+  <File id="f0" name="&lt;builtin&gt;" />
+  <File id="f1" name="C:\Users\AleX\source\repos\PrePost\ClassLibrary1\PrePost.h" />
+</GCC_XML>

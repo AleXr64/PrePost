@@ -1,0 +1,4 @@
+C:\Users\AleX\source\repos\PrePost\ClassLibrary1/obj\Debug\netcoreapp2.0\SharpGen/SharpGen-MSBuild.h
+C:\Users\AleX\source\repos\PrePost\ClassLibrary1/obj\Debug\netcoreapp2.0\SharpGen/MyMapping3.h
+C:\Users\AleX\source\repos\PrePost\ClassLibrary1\PrePost.h
+C:\Users\AleX\source\repos\PrePost\ClassLibrary1\PrePost2.h

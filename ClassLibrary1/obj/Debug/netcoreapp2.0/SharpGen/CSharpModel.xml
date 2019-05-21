@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/SharpGen.Model">
+  <CppElement i:nil="true" />
+  <Description z:Id="2">No documentation.</Description>
+  <DocId i:nil="true" />
+  <Items z:Size="1">
+    <Element z:Id="3" i:type="Assembly">
+      <CppElement i:nil="true" />
+      <Description z:Ref="2" i:nil="true" />
+      <DocId i:nil="true" />
+      <Items z:Size="1">
+        <Element z:Id="4" i:type="Namespace">
+          <CppElement i:nil="true" />
+          <Description z:Ref="2" i:nil="true" />
+          <DocId i:nil="true" />
+          <Items z:Size="1">
+            <Element z:Id="5" i:type="Group">
+              <CppElement i:nil="true" />
+              <Description z:Id="6">Functions</Description>
+              <DocId i:nil="true" />
+              <Items z:Size="1">
+                <Element z:Id="7" i:type="Function">
+                  <CppElement z:Id="8">Func3</CppElement>
+                  <Description z:Ref="2" i:nil="true" />
+                  <DocId i:nil="true" />
+                  <Items z:Size="0" />
+                  <Name z:Ref="8" i:nil="true" />
+                  <Parent z:Ref="5" i:nil="true" />
+                  <Remarks z:Id="9"></Remarks>
+                  <Visibility>Public Static</Visibility>
+                  <AlwaysReturnHResult>false</AlwaysReturnHResult>
+                  <CallingConvention z:Id="10">Cdecl</CallingConvention>
+                  <CheckReturnType>true</CheckReturnType>
+                  <CppSignature z:Id="11">void Func3()</CppSignature>
+                  <ForceReturnType>false</ForceReturnType>
+                  <HideReturnType>false</HideReturnType>
+                  <Interop z:Id="12">
+                    <CallingConvention z:Ref="10" i:nil="true" />
+                    <Index>0</Index>
+                    <IsFunction>true</IsFunction>
+                    <IsLocal>false</IsLocal>
+                    <ParameterTypes z:Size="0" />
+                    <ReturnType z:Id="13">
+                      <TypeName z:Id="14">void</TypeName>
+                    </ReturnType>
+                  </Interop>
+                  <RequestRawPtr>false</RequestRawPtr>
+                  <ReturnValue z:Id="15">
+                    <CppElement i:nil="true" />
+                    <Description z:Ref="2" i:nil="true" />
+                    <DocId i:nil="true" />
+                    <Items z:Size="0" />
+                    <Name z:Id="16">__result__</Name>
+                    <Parent i:nil="true" />
+                    <Remarks z:Ref="9" i:nil="true" />
+                    <Visibility>Public</Visibility>
+                    <ArrayDimensionValue>0</ArrayDimensionValue>
+                    <HasPointer>false</HasPointer>
+                    <IsArray>false</IsArray>
+                    <IsBoolToInt>false</IsBoolToInt>
+                    <IsWideChar>false</IsWideChar>
+                    <MarshalType z:Id="17" i:type="Builtin-Type">
+                      <CppElement i:nil="true" />
+                      <Description z:Ref="2" i:nil="true" />
+                      <DocId i:nil="true" />
+                      <Items z:Size="0" />
+                      <Name z:Ref="14" i:nil="true" />
+                      <Parent i:nil="true" />
+                      <Remarks z:Ref="9" i:nil="true" />
+                      <Visibility>Public</Visibility>
+                      <BuiltinTypeName z:Id="18">System.Void</BuiltinTypeName>
+                    </MarshalType>
+                    <PublicType z:Ref="17" i:nil="true" />
+                    <Relation i:nil="true" />
+                  </ReturnValue>
+                  <ShortName z:Id="19">Func3</ShortName>
+                  <SignatureOnly>false</SignatureOnly>
+                  <DllName z:Id="20">"dllname"</DllName>
+                </Element>
+              </Items>
+              <Name z:Id="21">Funcs</Name>
+              <Parent z:Ref="4" i:nil="true" />
+              <Remarks z:Ref="9" i:nil="true" />
+              <Visibility>Public Static</Visibility>
+            </Element>
+          </Items>
+          <Name z:Id="22">ClassLibrary1.Interop</Name>
+          <Parent z:Ref="3" i:nil="true" />
+          <Remarks z:Ref="9" i:nil="true" />
+          <Visibility>Public</Visibility>
+          <OutputDirectory i:nil="true" />
+        </Element>
+      </Items>
+      <Name z:Id="23">ClassLibrary1</Name>
+      <Parent z:Ref="1" i:nil="true" />
+      <Remarks z:Ref="9" i:nil="true" />
+      <Visibility>Public</Visibility>
+      <Interop z:Id="24">
+        <Methods z:Size="1">
+          <InteropMethodSignature z:Ref="12" i:nil="true" />
+        </Methods>
+      </Interop>
+      <NeedsToBeUpdated>true</NeedsToBeUpdated>
+    </Element>
+  </Items>
+  <Name i:nil="true" />
+  <Parent i:nil="true" />
+  <Remarks z:Ref="9" i:nil="true" />
+  <Visibility>Public</Visibility>
+</Solution>

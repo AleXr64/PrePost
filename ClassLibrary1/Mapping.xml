@@ -12,6 +12,7 @@
   <include-dir>$(THIS_CONFIG_PATH)</include-dir>
   
   <include file="PrePost.h" namespace="ClassLibrary1.Interop" attach="true" pre="#define ONE\n" post="#define TWO\n" />
+  <include file="PrePost2.h" namespace="ClassLibrary1.Interop" attach="true"  />
 
   <mapping>
     <map function=".*" dll='"dllname"' group="ClassLibrary1.Interop.Funcs" />

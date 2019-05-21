@@ -1,0 +1,18 @@
+void%void
+int%System.Int32
+unsigned int%System.UInt32
+short%System.Int16
+unsigned short%System.UInt16
+unsigned char%System.Byte
+longlong%System.Int64
+unsigned longlong%System.UInt64
+float%System.Single
+double%System.Double
+size_t%SharpGen.Runtime.PointerSize
+ptrdiff_t%SharpGen.Runtime.PointerSize
+bool%System.Boolean
+__function__stdcall%SharpGen.Runtime.FunctionCallback
+GUID%System.Guid
+S_OK%SharpGen.Runtime.Result.Ok
+FALSE%SharpGen.Runtime.Result.False
+NULL%<c>null</c>

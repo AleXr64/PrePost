@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config id="CppConsumerConfig" xmlns="urn:SharpGen.Config">
+  <include-prolog>
+</include-prolog>
+  <naming />
+  <extension />
+  <bindings />
+  <mapping />
+</config>

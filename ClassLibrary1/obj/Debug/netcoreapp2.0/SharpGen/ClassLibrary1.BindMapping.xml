@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<config id="ClassLibrary1" xmlns="urn:SharpGen.Config">
+  <var name="THIS_CONFIG_PATH">C:\Users\AleX\source\repos\PrePost\ClassLibrary1\obj\Debug\netcoreapp2.0\SharpGen</var>
+  <include-prolog />
+  <naming />
+  <extension>
+    <define struct="SharpGen.Runtime.Result" sizeof="4" />
+    <define struct="SharpGen.Runtime.FunctionCallback" sizeof="8" />
+    <define struct="SharpGen.Runtime.PointerSize" sizeof="8" />
+    <define struct="SharpGen.Runtime.PointerSize" sizeof="8" align="0" marshal="false" static-marshal="false" custom-new="false" />
+    <define struct="SharpGen.Runtime.PointerSize" sizeof="8" align="0" marshal="false" static-marshal="false" custom-new="false" />
+    <define struct="SharpGen.Runtime.FunctionCallback" sizeof="8" align="0" marshal="false" static-marshal="false" custom-new="false" />
+  </extension>
+  <bindings>
+    <bind from="void" to="void" />
+    <bind from="int" to="System.Int32" />
+    <bind from="unsigned int" to="System.UInt32" />
+    <bind from="short" to="System.Int16" />
+    <bind from="unsigned short" to="System.UInt16" />
+    <bind from="unsigned char" to="System.Byte" />
+    <bind from="longlong" to="System.Int64" />
+    <bind from="unsigned longlong" to="System.UInt64" />
+    <bind from="float" to="System.Single" />
+    <bind from="double" to="System.Double" />
+    <bind from="size_t" to="SharpGen.Runtime.PointerSize" />
+    <bind from="ptrdiff_t" to="SharpGen.Runtime.PointerSize" />
+    <bind from="bool" to="System.Boolean" marshal="System.Byte" />
+    <bind from="__function__stdcall" to="SharpGen.Runtime.FunctionCallback" />
+    <bind from="GUID" to="System.Guid" />
+  </bindings>
+  <mapping>
+    <map doc="void" check="true" name="void" offset-translate="0" />
+    <map doc="int" check="true" name="System.Int32" offset-translate="0" />
+    <map doc="unsigned int" check="true" name="System.UInt32" offset-translate="0" />
+    <map doc="short" check="true" name="System.Int16" offset-translate="0" />
+    <map doc="unsigned short" check="true" name="System.UInt16" offset-translate="0" />
+    <map doc="unsigned char" check="true" name="System.Byte" offset-translate="0" />
+    <map doc="longlong" check="true" name="System.Int64" offset-translate="0" />
+    <map doc="unsigned longlong" check="true" name="System.UInt64" offset-translate="0" />
+    <map doc="float" check="true" name="System.Single" offset-translate="0" />
+    <map doc="double" check="true" name="System.Double" offset-translate="0" />
+    <map doc="size_t" check="true" name="SharpGen.Runtime.PointerSize" offset-translate="0" />
+    <map doc="ptrdiff_t" check="true" name="SharpGen.Runtime.PointerSize" offset-translate="0" />
+    <map doc="bool" check="true" name="System.Boolean" offset-translate="0" />
+    <map doc="__function__stdcall" check="true" name="SharpGen.Runtime.FunctionCallback" offset-translate="0" />
+    <map doc="GUID" check="true" name="System.Guid" offset-translate="0" />
+    <map doc="S_OK" check="true" name="SharpGen.Runtime.Result.Ok" offset-translate="0" />
+    <map doc="FALSE" check="true" name="SharpGen.Runtime.Result.False" offset-translate="0" />
+    <map doc="NULL" check="true" name="&lt;c&gt;null&lt;/c&gt;" offset-translate="0" />
+  </mapping>
+</config>

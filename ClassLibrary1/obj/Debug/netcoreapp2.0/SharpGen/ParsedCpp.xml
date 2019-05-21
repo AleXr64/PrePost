@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cpp-module xmlns="urn:SharpGen.CppModel">
+  <items>
+    <include name="PrePost">
+      <items>
+        <function name="Func3" call-conv="cdecl">
+          <return typename="void" const="false" array="false" />
+        </function>
+      </items>
+    </include>
+    <include name="PrePost2">
+      <items />
+    </include>
+    <include name="SharpGen-MSBuild">
+      <items />
+    </include>
+    <include name="MyMapping3">
+      <items />
+    </include>
+  </items>
+</cpp-module>

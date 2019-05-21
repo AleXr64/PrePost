@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cpp-module xmlns="urn:SharpGen.CppModel">
+  <items>
+    <include name="PrePost" />
+    <include name="PrePost2" />
+    <include name="SharpGen-MSBuild" />
+    <include name="MyMapping3" />
+  </items>
+</cpp-module>
