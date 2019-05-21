@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<config id="MyMapping3" xmlns="urn:SharpGen.Config">
+  <assembly>ClassLibrary1</assembly>
+  <namespace>ClassLibrary1.Interop</namespace>
+  <depends>SharpGen.Runtime</depends>
+  <sdk name="StdLib" />
+  <sdk name="WindowsSdk" version="7.1A" />
+  <extension>
+    <create class="ClassLibrary1.Interop.Funcs" visibility="public static" />
+  </extension>
+  <include-dir>$(THIS_CONFIG_PATH)</include-dir>
+  
+  <include file="PrePost.h" namespace="ClassLibrary1.Interop" attach="true" pre="#define ONE\n" post="#define TWO\n" />
+
+  <mapping>
+    <map function=".*" dll='"dllname"' group="ClassLibrary1.Interop.Funcs" />
+  </mapping>
+
+</config>
